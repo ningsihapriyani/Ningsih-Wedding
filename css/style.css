@@ -61,19 +61,23 @@ table {
 }
 
 #hero h1 {
-  font-size: 48px;
+	font-family: 'Dancing Script', cursive;
+	text-transform: none;
+  font-size: 82px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
+	text-shadow: 0px 3px 50px rgba(0, 0, 0, 0.75);
 }
 
 #hero h2 {
   color: #eee;
-	padding-top: 125px;
+	padding-top: 400px;
   margin-bottom: 10px;
   font-size: 24px;
   font-weight: 300;
   font-family: "Poppins", sans-serif;
+	text-shadow: 0px 3px 50px rgba(0, 0, 0, 0.75);
 }
 
 #hero .efek-ft{
@@ -92,66 +96,82 @@ table {
 	--------------------------*/
 
 #arrum{
-	background-color: #A3B0C3;
+	background-color: #1F243A;
 	padding: 30px 30px 30px 30px;
 	height: 800px;
+	color: #fff;
 	font-family: 'Scheherazade New', serif;
 }
 
-#arrum h2{
-	padding-bottom: 15px;
+#arrum h1{
+	font-size: 45px;
 }
+#arrum h2{
+	font-size: 35px;
+	padding-bottom: 25px;
+}
+#arrum h3{
+	font-family:'Poppins', sans-serif;
+	font-size: 25px;
+}
+
+
 
 
 /*--------------------------
-			MEMPELAI
+			COUPLE
 	--------------------------*/
-
-#mempelai{
-	margin-top: 50px;
-	height: 900px;
+#couple{
+	height: 800px;
+	background-color: #1F243A;
 }
 
-#mempelai h1{
+.judul{
+	font-size: 75px;
+	text-align: center;
+	text-transform: none;
+	color: #eee;
+	font-family: 'Dancing Script', cursive;
+	margin-bottom: 75px;
+}
+
+.warp-cpl .p-2{
+	width: 400px;
+}
+
+#couple img{
+	border-radius: 200px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #E9A846;
+	margin-bottom: 50px;
+	width: 200px;
+}
+
+.ring{
+	width: 125px;
+	margin-top: -150px;
+}
+
+.nama{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	text-transform: none;
+	color: #E9A846;
 	text-align: center;
 }
 
-.judul h1{
+.ortu{
 	font-family: 'Poppins', sans-serif;
-	padding-bottom: 40px;
-}
-
-.container .pria{
-	width: 500px;
-}
-
-.container .pria h1{
-	font-size: 34px;
-}
-
-.container .wanita{
-	width: 500px;
-}
-
-.container .wanita h1{
-	font-size: 34px;
+	font-weight: 400;
+	font-size: 15px;
+	text-transform: none;
+	color: #eee;
+	text-align: center;
 }
 
 
-/*--------------------------
-			GALERI
-	--------------------------*/
-#galeri{
-	height: 1000px;
-	background-color: #A3B0C3;
-	padding-top: 150px;
-}
-
-#galeri img{
-	width: 350px;
-	border-radius: 20px;
-	margin: 20px;
-}
 
 
 /*--------------------------
@@ -160,11 +180,11 @@ table {
 #htg-mndr{
 	padding-top: 200px;
 	height: 600px;
+	background-color: #1F243A;
 }	
 
 #htg-mndr .container {
-	color: #333;
-	margin: 0 auto;
+	color: #eee;
 	text-align: center;
 }
 
@@ -201,6 +221,17 @@ li span {
 	}
 }
 
+.ingat{
+	font-family: 'Poppins', sans-serif;
+	width: 120px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #E9A846;
+	text-align: center;
+	color: black;
+}
+
+
 
 
 /*--------------------------
@@ -208,6 +239,7 @@ li span {
 	--------------------------*/
 #maps{
 	height: 900px;
+	background-color: #1F243A;
 }
 
 iframe{
@@ -215,3 +247,20 @@ iframe{
 	border: 10px solid;
 	border-color: #E9A846;
 }
+
+
+
+/*--------------------------
+			GALERI
+	--------------------------*/
+	#galeri{
+		height: 1000px;
+		background-color: #1F243A;
+		padding-top: 150px;
+	}
+	
+	#galeri img{
+		width: 350px;
+		border-radius: 20px;
+		margin: 20px;
+	}
