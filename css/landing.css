@@ -68,7 +68,9 @@ body {
 	width: 100%;
 	height: 1080px;
 }
+
 .ucapan{
+	margin-top: -125px;
 	color: #E2B84B;
 	text-align: center;
 	text-transform: none;
