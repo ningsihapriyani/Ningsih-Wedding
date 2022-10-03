@@ -102,7 +102,7 @@ table {
 
 #hero {
 	width: 100%;
-	height: 800px;
+	height: 740px;
 	background: url("../img/img2.jpg")center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -111,7 +111,7 @@ table {
 #hero h1 {
 	font-family: 'Dancing Script', cursive;
 	text-transform: none;
-	font-size: 45px;
+	font-size: 40px;
 	font-weight: 700;
 	color: #fff;
 	text-shadow: 0px 3px 50px rgba(0, 0, 0, 0.75);
@@ -124,13 +124,13 @@ table {
 	font-size: 15px;
 	font-weight: 300;
 	font-family: "Poppins", sans-serif;
-	text-shadow: 0px 3px 50px rgba(0, 0, 0, 0.75);
+	text-shadow: 0px 3px 50px rgba(0, 0, 0, 1);
 }
 	
 #hero .efek-ft{
 	position: absolute;
 	width: 100%;
-	height: 800px;
+	height: 740px;
 	left: 0px;
 	top: 0px;
 	background: linear-gradient(180deg, rgba(217, 217, 217, 0) 39.58%, #A3B0C3 100%);
@@ -154,7 +154,7 @@ table {
 }
 #arrum h2{
 	text-align: center;
-	font-size: 10px;
+	font-size: 12px;
 	padding-bottom: 5px;
 }
 #arrum h3{
@@ -169,12 +169,12 @@ table {
 				COUPLE
 		--------------------------*/
 #couple{
-	height: 1000px;
+	height: 1200px;
 	background-color: #1F243A;
 }
 
 .judul{
-	font-size: 45px;
+	font-size: 30px;
 	text-align: center;
 	text-transform: none;
 	color: #eee;
@@ -192,17 +192,17 @@ table {
 	border-style: solid;
 	border-color: #E9A846;
 	margin-bottom: 50px;
-	width: 150px;
+	width: 200px;
 }
 	
 .ring{
-	width: 60px;
+	width: 75px;
 }	
 
 .nama{
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 25px;
 	text-transform: none;
 	color: #E9A846;
 	text-align: center;
@@ -211,7 +211,7 @@ table {
 .ortu{
 	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
-	font-size: 10px;
+	font-size: 15px;
 	text-transform: none;
 	color: #eee;
 	text-align: center;
@@ -234,7 +234,7 @@ table {
 
 .akad{
 	text-align: center;
-	padding-bottom: 25px;
+	padding-bottom: 20px;
 }
 	
 .pembuka{
@@ -314,16 +314,16 @@ li span {
 	padding-top: 70px;
 	font-family: 'Dancing Script', cursive;
 	color: #eee;
-	font-size: 45px;
+	font-size: 35px;
 	align-items: center;
 	text-transform: none;
 }
 
 iframe{
-	width: 400px;
-	height: 200px;
-	border-radius: 20px;
-	border: 5px solid;
+	width: 250px;
+	height: 150px;
+	border-radius: 10px;
+	border: 3px solid;
 	border-color: #E9A846;
 	margin: 10px;
 }
@@ -331,6 +331,7 @@ iframe{
 #maps h2{
 	color: #eee;
 	font-family: 'Poppins', sans-serif;
+	text-align: center;
 	font-size: 15px;
 }
 	
@@ -375,7 +376,7 @@ iframe{
 }
 	
 #galeri img{
-	width: 200px;
+	width: 130px;
 	border-radius: 20px;
 	margin: 5px;
 	
