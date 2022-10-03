@@ -326,7 +326,7 @@ iframe{
 	border-radius: 10px;
 	border: 3px solid;
 	border-color: #E9A846;
-	margin: 10px;
+	margin: 20px;
 }
 	
 #maps h2{
@@ -362,7 +362,7 @@ iframe{
 			--------------------------*/
 			
 #galeri{
-	height: 1000px;
+	height: 700px;
 	background-color: #1F243A;
 	padding-top: 150px;
 }
@@ -377,7 +377,7 @@ iframe{
 }
 	
 #galeri img{
-	width: 100px;
+	width: 125px;
 	border-radius: 20px;
 	margin: 5px;
 	
@@ -404,6 +404,11 @@ iframe{
 	font-size: 10px;
 	text-align: center;
 }
+
+
+
+
+
 
 @media only screen and (min-width: 1080px) {
 	/*--------------------------
@@ -536,6 +541,7 @@ iframe{
 		--------------------------*/
 	#htg-mndr{
 		background-color: #1F243A;
+		height: 700px;
 	}	
 
 	#htg-mndr .container {
