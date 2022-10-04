@@ -95,322 +95,626 @@ table {
 
 
 
-/* CSS START */
+@media screen and (min-width: 240px) {
+	/* CSS START */
 	/*--------------------------
 		HERO
 		--------------------------*/
 
-#hero {
-	width: 100%;
-	height: 720px;
-	background: url("../img/img2.jpg")center;
-	background-size: cover;
-	background-attachment: fixed;
+	#hero {
+		width: 100%;
+		height: 720px;
+		background: url("../img/img2.jpg")center;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	#hero h1 {
+		font-family: 'Dancing Script', cursive;
+		text-transform: none;
+		font-size: 40px;
+		font-weight: 700;
+		color: #fff;
+		text-shadow: 0px 3px 50px rgba(0, 0, 0, 0.75);
+	}
+
+	#hero h2 {
+		color: #eee;
+		padding-top: 400px;
+		margin-bottom: 10px;
+		font-size: 15px;
+		font-weight: 300;
+		font-family: "Poppins", sans-serif;
+		text-shadow: 0px 3px 50px rgba(0, 0, 0, 1);
+	}
+		
+	#hero .efek-ft{
+		position: absolute;
+		width: 100%;
+		height: 720px;
+		left: 0px;
+		top: 0px;
+		background: linear-gradient(180deg, rgba(217, 217, 217, 0) 39.58%, #A3B0C3 100%);
+	}
+		
+		
+	/*--------------------------
+		ARRUM	
+	--------------------------*/
+		
+	#arrum{
+		background-color: #1F243A;
+		padding: 30px 30px 30px 30px;
+		height: 400px;
+		color: #fff;
+		font-family: 'Scheherazade New', serif;
+	}
+		
+	#arrum h1{
+		font-size: 15px;
+	}
+	#arrum h2{
+		text-align: center;
+		font-size: 12px;
+		padding-bottom: 5px;
+	}
+	#arrum h3{
+		font-family:'Poppins', sans-serif;
+		font-size: 10px;
+	}
+		
+		
+		
+		
+		/*--------------------------
+					COUPLE
+			--------------------------*/
+	#couple{
+		height: 1500px;
+		background-color: #1F243A;
+	}
+
+	.judul{
+		font-size: 30px;
+		text-align: center;
+		text-transform: none;
+		color: #eee;
+		font-family: 'Dancing Script', cursive;
+		margin-bottom: 75px;
+	}
+
+	.warp-cpl .p-2{
+		width: 400px;
+	}
+		
+	#couple img{
+		border-radius: 200px;
+		border-width: 5px;
+		border-style: solid;
+		border-color: #E9A846;
+		margin-bottom: 50px;
+		width: 200px;
+	}
+		
+	.ring{
+		width: 75px;
+	}	
+
+	.nama{
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: 600;
+		font-size: 30px;
+		text-transform: none;
+		color: #E9A846;
+		text-align: center;
+	}
+		
+	.ortu{
+		font-family: 'Poppins', sans-serif;
+		font-weight: 400;
+		font-size: 20px;
+		text-transform: none;
+		color: #eee;
+		text-align: center;
+	}
+		
+		
+		
+			/*--------------------------
+						HITUNG MUNDUR dan AKAD
+				--------------------------*/
+	#htg-mndr{
+		height: 350px;
+		background-color: #1F243A;
+	}	
+
+	#htg-mndr .container {
+		color: #eee;
+		text-align: center;
+		font-family: 'Dancing Script', cursive;
+	}
+
+	.akad{
+		text-align: center;
+		padding-bottom: 10pxpx;
+	}
+		
+	.pembuka{
+		color: #eee;
+		font-family: 'Poppins', sans-serif;
+		font-size: 15px;
+	}
+		
+	.tanggal{
+		color: #E9A846;
+		font-family: 'Dancing Script', cursive;
+		font-size: 35px;
+		text-transform: none;
+	}
+		
+	.hari-h{
+		font-family:'Poppins', sans-serif;
+		font-size: 15px;
+	}
+		
+	h1 {
+		font-weight: normal;
+		letter-spacing: .125rem;
+		text-transform: uppercase;
+	}
+
+	li {
+		display: inline-block;
+		font-size: 1.5em;
+		list-style-type: none;
+		padding: 1em;
+		text-transform: uppercase;
+	}
+		
+	li span {
+		display: block;
+		font-size: 4.5rem;
+	}
+
+	@media all and (max-width: 768px) {
+		h1 {
+			font-size: calc(1.5rem * var(--smaller));
+		}
+		
+		li {
+			font-size: calc(1.125rem * var(--smaller));
+		}
+		
+		li span {
+			font-size: calc(3.375rem * var(--smaller));
+		}
+	}
+
+	.ingat{
+		font-family: 'Poppins', sans-serif;
+		font-size: 15px;
+		width: 120px;
+		height: 23px;
+		border-radius: 10px;
+		background-color: #E9A846;
+		text-align: center;
+		color: black;
+	}
+		
+		
+		
+
+	/*--------------------------
+				MAPS
+		--------------------------*/
+	#maps{
+		height: 600px;
+		background-color: #1F243A;
+	}
+		
+	#maps .jdl{
+		padding-top: 50px;
+		font-family: 'Dancing Script', cursive;
+		color: #eee;
+		font-size: 35px;
+		align-items: center;
+		text-transform: none;
+	}
+
+	iframe{
+		width: 200px;
+		height: 150px;
+		border-radius: 10px;
+		border: 3px solid;
+		border-color: #E9A846;
+		margin: 20px;
+	}
+		
+	#maps h2{
+		color: #eee;
+		font-family: 'Poppins', sans-serif;
+		text-align: center;
+		font-size: 15px;
+	}
+		
+	#maps h3{
+		color: #E9A846;
+		font-family: 'Poppins', sans-serif;
+		font-size: 15px;
+		text-align: center;
+		padding-bottom: 15px;
+	}
+		
+	.map{
+		font-family: 'Poppins', sans-serif;
+		border-radius: 10px;
+		width: 150px;
+		height: 23px;
+		font-size: 15px;
+		color: black;
+		text-decoration: none;
+		background-color: #E9A846;
+		text-align: center;
+	}
+		
+		
+			/*--------------------------
+						GALERI
+				--------------------------*/
+				
+	#galeri{
+		height: 700px;
+		background-color: #1F243A;
+		padding-top: 150px;
+	}
+		
+	#galeri h1{
+		font-family:'Dancing Script', cursive;
+		color: #eee;
+		font-size: 45px;
+		text-align: center;
+		text-transform: none;
+		padding-bottom: 30px;
+	}
+		
+	#galeri img{
+		width: 125px;
+		border-radius: 20px;
+		margin: 5px;
+		
+		-webkit-transition: 0.4s ease;
+		transition: 0.4s ease;
+	}
+		
+	#galeri img:hover{
+		-webkit-transform: scale(1.08);
+		transform: scale(1.08);
+	}
+
+	.authorr{
+		height: 100px;
+		background-color: #A3B0C3;
+	}
+		
+	.ig{
+		font-size: 10px;
+		text-align: center;
+	}
+		
+	.spesial{
+		font-size: 10px;
+		text-align: center;
+	}
 }
 
-#hero h1 {
-	font-family: 'Dancing Script', cursive;
-	text-transform: none;
-	font-size: 40px;
-	font-weight: 700;
-	color: #fff;
-	text-shadow: 0px 3px 50px rgba(0, 0, 0, 0.75);
-}
+@media screen and (min-widht: 640px) {
+	/*--------------------------
+	HERO
+	--------------------------*/
+	#hero {
+		width: 100%;
+		height: 768px;
+		background: url("../img/hero.JPG") top center;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+		#hero .efek-ft{
+		position: absolute;
+		width: 100%;
+		height: 768px;
+		left: 0px;
+		top: 0px;
 
-#hero h2 {
-	color: #eee;
-	padding-top: 400px;
-	margin-bottom: 10px;
-	font-size: 15px;
-	font-weight: 300;
-	font-family: "Poppins", sans-serif;
-	text-shadow: 0px 3px 50px rgba(0, 0, 0, 1);
-}
+		background: linear-gradient(180deg, rgba(217, 217, 217, 0) 39.58%, #A3B0C3 100%);
+	}
 	
-#hero .efek-ft{
-	position: absolute;
-	width: 100%;
-	height: 720px;
-	left: 0px;
-	top: 0px;
-	background: linear-gradient(180deg, rgba(217, 217, 217, 0) 39.58%, #A3B0C3 100%);
-}
+	#hero h1 {
+		font-family: 'Dancing Script', cursive;
+		text-transform: none;
+		font-size: 82px;
+		font-weight: 700;
+		line-height: 56px;
+		color: #fff;
+		text-shadow: 0px 3px 50px rgba(0, 0, 0, 0.75);
+	}
 	
-	
-/*--------------------------
-	ARRUM	
---------------------------*/
-	
-#arrum{
-	background-color: #1F243A;
-	padding: 30px 30px 30px 30px;
-	height: 400px;
-	color: #fff;
-	font-family: 'Scheherazade New', serif;
-}
-	
-#arrum h1{
-	font-size: 15px;
-}
-#arrum h2{
-	text-align: center;
-	font-size: 12px;
-	padding-bottom: 5px;
-}
-#arrum h3{
-	font-family:'Poppins', sans-serif;
-	font-size: 10px;
-}
-	
-	
-	
+	#hero h2 {
+		color: #eee;
+		padding-top: 0px;
+		font-size: 24px;
+		font-weight: 300;
+		font-family: "Poppins", sans-serif;
+		text-shadow: 0px 3px 50px rgba(0, 0, 0, 0.75);
+	}
+
 	
 	/*--------------------------
-				COUPLE
+	ARRUM	
+	--------------------------*/
+	
+	#arrum{
+		background-color: #1F243A;
+		padding: 30px 30px 30px 30px;
+		height: 800px;
+		color: #fff;
+		font-family: 'Scheherazade New', serif;
+	}
+
+	#arrum h1{
+		font-size: 45px;
+	}
+	#arrum h2{
+		font-size: 35px;
+		padding-bottom: 25px;
+	}
+	#arrum h3{
+		font-family:'Poppins', sans-serif;
+		font-size: 25px;
+	}
+
+	
+	
+	
+		/*--------------------------
+					COUPLE
 		--------------------------*/
-#couple{
-	height: 1500px;
-	background-color: #1F243A;
-}
+	#couple{
+		height: 800px;
+		background-color: #1F243A;
+	}
 
-.judul{
-	font-size: 30px;
-	text-align: center;
-	text-transform: none;
-	color: #eee;
-	font-family: 'Dancing Script', cursive;
-	margin-bottom: 75px;
-}
-
-.warp-cpl .p-2{
-	width: 400px;
-}
+	.judul{
+		font-size: 75px;
+		text-align: center;
+		text-transform: none;
+		color: #eee;
+		font-family: 'Dancing Script', cursive;
+		margin-bottom: 75px;
+	}
 	
-#couple img{
-	border-radius: 200px;
-	border-width: 5px;
-	border-style: solid;
-	border-color: #E9A846;
-	margin-bottom: 50px;
-	width: 200px;
-}
+	.warp-cpl .p-2{
+		width: 400px;
+	}
 	
-.ring{
-	width: 75px;
-}	
-
-.nama{
-	font-family: 'Josefin Sans', sans-serif;
-	font-weight: 600;
-	font-size: 30px;
-	text-transform: none;
-	color: #E9A846;
-	text-align: center;
-}
+	#couple img{
+		border-radius: 200px;
+		border-width: 5px;
+		border-style: solid;
+		border-color: #E9A846;
+		margin-bottom: 50px;
+		width: 200px;
+	}
 	
-.ortu{
-	font-family: 'Poppins', sans-serif;
-	font-weight: 400;
-	font-size: 20px;
-	text-transform: none;
-	color: #eee;
-	text-align: center;
-}
+	.ring{
+		width: 125px;
+		margin-top: -150px;
+	}
+	
+	.nama{
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: 600;
+		font-size: 30px;
+		text-transform: none;
+		color: #E9A846;
+		text-align: center;
+	}
+	
+	.ortu{
+		font-family: 'Poppins', sans-serif;
+		font-weight: 400;
+		font-size: 15px;
+		text-transform: none;
+		color: #eee;
+		text-align: center;
+	}
 	
 	
 	
 		/*--------------------------
 					HITUNG MUNDUR dan AKAD
 			--------------------------*/
-#htg-mndr{
-	height: 350px;
-	background-color: #1F243A;
-}	
-
-#htg-mndr .container {
-	color: #eee;
-	text-align: center;
-	font-family: 'Dancing Script', cursive;
-}
-
-.akad{
-	text-align: center;
-	padding-bottom: 10pxpx;
-}
+	#htg-mndr{
+		background-color: #1F243A;
+		height: 700px;
+	}	
 	
-.pembuka{
-	color: #eee;
-	font-family: 'Poppins', sans-serif;
-	font-size: 15px;
-}
+	#htg-mndr .container {
+		color: #eee;
+		text-align: center;
+		font-family: 'Dancing Script', cursive;
+	}
 	
-.tanggal{
-	color: #E9A846;
-	font-family: 'Dancing Script', cursive;
-	font-size: 35px;
-	text-transform: none;
-}
+	.akad{
+		text-align: center;
+		padding-bottom: 75px;
+	}
 	
-.hari-h{
-	font-family:'Poppins', sans-serif;
-	font-size: 15px;
-}
+	.pembuka{
+		color: #eee;
+		font-family: 'Poppins', sans-serif;
+		font-size: 24px;
+	}
 	
-h1 {
-	font-weight: normal;
-	letter-spacing: .125rem;
-	text-transform: uppercase;
-}
-
-li {
-	display: inline-block;
-	font-size: 1.5em;
-	list-style-type: none;
-	padding: 1em;
-	text-transform: uppercase;
-}
+	.tanggal{
+		color: #E9A846;
+		font-family: 'Dancing Script', cursive;
+		font-size: 58px;
+		text-transform: none;
+	}
 	
-li span {
-	display: block;
-	font-size: 4.5rem;
-}
-
-@media all and (max-width: 768px) {
+	.hari-h{
+		font-family:'Poppins', sans-serif;
+		font-size: 25px;
+	}
+	
 	h1 {
-		font-size: calc(1.5rem * var(--smaller));
+		font-weight: normal;
+		letter-spacing: .125rem;
+		text-transform: uppercase;
 	}
 	
 	li {
-		font-size: calc(1.125rem * var(--smaller));
+		display: inline-block;
+		font-size: 1.5em;
+		list-style-type: none;
+		padding: 1em;
+		text-transform: uppercase;
 	}
 	
 	li span {
-		font-size: calc(3.375rem * var(--smaller));
+		display: block;
+		font-size: 4.5rem;
 	}
-}
+	
+	@media all and (max-width: 768px) {
+		h1 {
+			font-size: calc(1.5rem * var(--smaller));
+		}
+			
+		li {
+			font-size: calc(1.125rem * var(--smaller));
+		}
+			
+		li span {
+			font-size: calc(3.375rem * var(--smaller));
+		}
+	}
 
-.ingat{
-	font-family: 'Poppins', sans-serif;
-	font-size: 15px;
-	width: 120px;
-	height: 23px;
-	border-radius: 10px;
-	background-color: #E9A846;
-	text-align: center;
-	color: black;
-}
+	.ingat{
+		font-family: 'Poppins', sans-serif;
+		width: 150px;
+		height: 30px;
+		border-radius: 10px;
+		background-color: #E9A846;
+		text-align: center;
+		color: black;
+	}
 	
 	
 	
+	
+	/*--------------------------
+				MAPS
+		--------------------------*/
+	#maps{
+		height: 700px;
+		background-color: #1F243A;
+	}
+	
+	#maps .jdl{
+		padding-top: 100px;
+		font-family: 'Dancing Script', cursive;
+		color: #eee;
+		font-size: 75px;
+		align-items: center;
+		text-transform: none;
+	}
+	
+	iframe{
+		width: 600px;
+		height: 400px;
+		border-radius: 20px;
+		border: 5px solid;
+		border-color: #E9A846;
+		margin: 30px;
+	}
+	
+	#maps h2{
+		color: #eee;
+		font-family: 'Poppins', sans-serif;
+		font-size: 25px;
+	}
 
-/*--------------------------
-			MAPS
-	--------------------------*/
-#maps{
-	height: 600px;
-	background-color: #1F243A;
-}
-	
-#maps .jdl{
-	padding-top: 50px;
-	font-family: 'Dancing Script', cursive;
-	color: #eee;
-	font-size: 35px;
-	align-items: center;
-	text-transform: none;
-}
+	#maps h3{
+		color: #E9A846;
+		font-family: 'Poppins', sans-serif;
+		font-size: 20px;
+		padding-bottom: 25px;
+	}
 
-iframe{
-	width: 200px;
-	height: 150px;
-	border-radius: 10px;
-	border: 3px solid;
-	border-color: #E9A846;
-	margin: 20px;
-}
-	
-#maps h2{
-	color: #eee;
-	font-family: 'Poppins', sans-serif;
-	text-align: center;
-	font-size: 15px;
-}
-	
-#maps h3{
-	color: #E9A846;
-	font-family: 'Poppins', sans-serif;
-	font-size: 15px;
-	text-align: center;
-	padding-bottom: 15px;
-}
-	
-.map{
-	font-family: 'Poppins', sans-serif;
-	border-radius: 10px;
-	width: 150px;
-	height: 23px;
-	font-size: 15px;
-	color: black;
-	text-decoration: none;
-	background-color: #E9A846;
-	text-align: center;
-}
-	
+	.map{
+		font-family: 'Poppins', sans-serif;
+		border-radius: 10px;
+		width: 180px;
+		height: 30px;
+		font-size: 20px;
+		color: black;
+		text-decoration: none;
+		background-color: #E9A846;
+		text-align: center;
+	}
+
 	
 		/*--------------------------
-					GALERI
+			GALERI
 			--------------------------*/
+	#galeri{
+		height: 1000px;
+		background-color: #1F243A;
+		padding-top: 150px;
+	}
+
+	#galeri h1{
+		font-family:'Dancing Script', cursive;
+		color: #eee;
+		font-size: 75px;
+		text-align: center;
+		text-transform: none;
+		padding-bottom: 30px;
+	}
 			
-#galeri{
-	height: 700px;
-	background-color: #1F243A;
-	padding-top: 150px;
-}
+	#galeri img{
+		width: 350px;
+		border-radius: 20px;
+		margin: 20px;
+			
+		-webkit-transition: 0.4s ease;
+		transition: 0.4s ease;
+	}
 	
-#galeri h1{
-	font-family:'Dancing Script', cursive;
-	color: #eee;
-	font-size: 45px;
-	text-align: center;
-	text-transform: none;
-	padding-bottom: 30px;
-}
+	#galeri img:hover{
+		-webkit-transform: scale(1.08);
+		transform: scale(1.08);
+	}
 	
-#galeri img{
-	width: 125px;
-	border-radius: 20px;
-	margin: 5px;
+	.authorr{
+		height: 100px;
+		background-color: #A3B0C3;
+	}
 	
-	-webkit-transition: 0.4s ease;
-	transition: 0.4s ease;
-}
+	.ig{
+		font-size: 15px;
+		text-align: center;
+	}
 	
-#galeri img:hover{
-	-webkit-transform: scale(1.08);
-	transform: scale(1.08);
+	.spesial{
+		font-size: 8px;
+		text-align: center;
+	}
+
 }
 
-.authorr{
-	height: 100px;
-	background-color: #A3B0C3;
-}
-	
-.ig{
-	font-size: 10px;
-	text-align: center;
-}
-	
-.spesial{
-	font-size: 10px;
-	text-align: center;
-}
-
-
-
-
-
-
-@media only screen and (min-width: 1080px) {
+@media screen and (min-width: 1080px) {
 	/*--------------------------
 		HERO
 		--------------------------*/
@@ -470,6 +774,7 @@ iframe{
 		font-size: 45px;
 	}
 	#arrum h2{
+		text-align: center;
 		font-size: 35px;
 		padding-bottom: 25px;
 	}
