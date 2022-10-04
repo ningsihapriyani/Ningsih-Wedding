@@ -30,3 +30,20 @@ var x = setInterval(function() {
     document.getElementById("countdown").innerHTML = "Akad Nikah Telah Dilaksanakan";
   }
 }, 1000);
+
+function myFunction() {
+  // Copy the text inside the text field
+  navigator.clipboard.writeText("4730954781");
+  
+  // Alert the copied text
+  alert("Ingin menyalin nomor rekening?");
+}
+
+function myFunction1() {
+  
+  // Copy the text inside the text field
+  navigator.clipboard.writeText("a.n Mohammad Ryan Noor Said \n Jl. Otista Raya. Simpang tiga Cimanggis. RT:001/RW:10. No.39. Cimanggis, Ciputat, Kota Tangerang Selatan, Banten. Kode Pos 15411");
+
+  // Alert the copied text
+  alert("Ingin menyalin alamat lengkap?");
+}

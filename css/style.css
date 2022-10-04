@@ -173,7 +173,7 @@ table {
 	}
 
 	.judul{
-		font-size: 30px;
+		font-size: 35px;
 		text-align: center;
 		text-transform: none;
 		color: #eee;
@@ -201,7 +201,7 @@ table {
 	.nama{
 		font-family: 'Josefin Sans', sans-serif;
 		font-weight: 600;
-		font-size: 30px;
+		font-size: 25px;
 		text-transform: none;
 		color: #E9A846;
 		text-align: center;
@@ -210,7 +210,7 @@ table {
 	.ortu{
 		font-family: 'Poppins', sans-serif;
 		font-weight: 400;
-		font-size: 20px;
+		font-size: 15px;
 		text-transform: none;
 		color: #eee;
 		text-align: center;
@@ -222,7 +222,7 @@ table {
 						HITUNG MUNDUR dan AKAD
 				--------------------------*/
 	#htg-mndr{
-		height: 350px;
+		height: 450px;
 		background-color: #1F243A;
 	}	
 
@@ -306,7 +306,7 @@ table {
 				MAPS
 		--------------------------*/
 	#maps{
-		height: 600px;
+		height: 500px;
 		background-color: #1F243A;
 	}
 		
@@ -361,7 +361,7 @@ table {
 				--------------------------*/
 				
 	#galeri{
-		height: 700px;
+		height: 600px;
 		background-color: #1F243A;
 		padding-top: 150px;
 	}
@@ -389,6 +389,85 @@ table {
 		transform: scale(1.08);
 	}
 
+
+/*--------------------------
+				Hadiah
+		--------------------------*/
+
+#hadiah{
+	height: 800px;
+	background-color: #1F243A;
+	}
+	
+.wrap-hadiah{
+	width: 350px;
+}
+	
+#hadiah h1{
+	font-family:'Dancing Script', cursive;
+	color: #eee;
+	font-size: 45px;
+	text-align: center;
+	text-transform: none;
+	padding-bottom: 30px;
+}
+	
+#hadiah h2{
+	padding: 5px;
+	color: #eee;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	text-align: center;
+}
+	
+#hadiah h3{
+	padding: 30px;
+	color: #eee;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	text-align: center;
+}
+	
+.rek{
+	width: 250px;
+}
+
+.logo{
+	width: 150px;
+	height: 50px;
+	background-color: #f6fdff;
+	border-radius: 15px;
+}
+
+.bca{
+	width: 100px;
+}
+
+.fisik{
+	width: 250px;
+}
+	
+.kotak{
+	width: 50px;
+	height: 50px;
+	background-color: #f6fdff;
+	border-radius: 15px;
+}
+	.img-hdh{
+	width: 35px;
+}
+
+.salin{
+	font-family: 'Poppins', cursive;
+	width: 150px;
+	height: 23px;
+	font-size: 15px;
+	background-color: #E9A846;
+	border-radius: 10px;
+	border-style: none;
+}
+
+
 	.authorr{
 		height: 100px;
 		background-color: #A3B0C3;
@@ -403,6 +482,15 @@ table {
 		font-size: 10px;
 		text-align: center;
 	}
+
+
+
+
+
+
+
+
+
 
 @media only screen and (min-width: 740px) {
 	/*--------------------------
@@ -536,7 +624,7 @@ table {
 			--------------------------*/
 	#htg-mndr{
 		background-color: #1F243A;
-		height: 700px;
+		height: 600px;
 	}	
 	
 	#htg-mndr .container {
@@ -618,12 +706,12 @@ table {
 				MAPS
 		--------------------------*/
 	#maps{
-		height: 700px;
+		height: 900px;
 		background-color: #1F243A;
 	}
 	
 	#maps .jdl{
-		padding-top: 100px;
+		padding-top: 25px;
 		font-family: 'Dancing Script', cursive;
 		color: #eee;
 		font-size: 75px;
@@ -670,7 +758,7 @@ table {
 			GALERI
 			--------------------------*/
 	#galeri{
-		height: 1000px;
+		height: 700px;
 		background-color: #1F243A;
 		padding-top: 150px;
 	}
@@ -698,6 +786,87 @@ table {
 		transform: scale(1.08);
 	}
 	
+
+
+		
+	/*--------------------------
+				Hadiah
+		--------------------------*/
+
+		#hadiah{
+			height: 800px;
+			background-color: #1F243A;
+		}
+	
+		.wrap-hadiah{
+			width: 1000px;
+		}
+	
+		#hadiah h1{
+			font-family:'Dancing Script', cursive;
+			color: #eee;
+			font-size: 75px;
+			text-align: center;
+			text-transform: none;
+			padding-bottom: 30px;
+		}
+	
+		#hadiah h2{
+			padding: 30px;
+			color: #eee;
+			font-family: 'Poppins', sans-serif;
+			font-size: 20px;
+			text-align: center;
+		}
+	
+		#hadiah h3{
+			padding: 30px;
+			color: #eee;
+			font-family: 'Poppins', sans-serif;
+			font-size: 15px;
+			text-align: center;
+		}
+	
+		.rek{
+			width: 500px;
+		}
+		.logo{
+			width: 300px;
+			height: 125px;
+			background-color: #f6fdff;
+			border-radius: 40px;
+		}
+	
+		.bca{
+			width: 200px;
+		}
+	
+		.fisik{
+			width: 500px;
+		}
+	
+		.kotak{
+			width: 125px;
+			height: 125px;
+			background-color: #f6fdff;
+			border-radius: 40px;
+		}
+	
+		.img-hdh{
+			width: 100px;
+		}
+	
+		.salin{
+			font-family: 'Poppins', cursive;
+			width: 200px;
+			height: 40px;
+			background-color: #E9A846;
+			border-radius: 10px;
+			border-style: none;
+		}
+	
+
+
 	.authorr{
 		height: 100px;
 		background-color: #A3B0C3;
@@ -715,7 +884,15 @@ table {
 
 }
 
-@media screen and (min-width: 1920px) {
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1800px) {
 	/*--------------------------
 		HERO
 		--------------------------*/
@@ -736,6 +913,7 @@ table {
 		line-height: 56px;
 		color: #fff;
 		text-shadow: 0px 3px 50px rgba(0, 0, 0, 0.75);
+		z-index: 1;
 	}
 
 	#hero h2 {
@@ -746,6 +924,7 @@ table {
 		font-weight: 300;
 		font-family: "Poppins", sans-serif;
 		text-shadow: 0px 3px 50px rgba(0, 0, 0, 0.75);
+		z-index: 1;
 	}
 
 	#hero .efek-ft{
@@ -758,6 +937,15 @@ table {
 		background: linear-gradient(180deg, rgba(217, 217, 217, 0) 39.58%, #A3B0C3 100%);
 	}
 
+	#hero .vektor{
+		position: absolute;
+		width: 407.23px;
+		height: 337.28px;
+		left: 0px;
+		top: 743px;
+		
+		z-index: 2;
+	}
 
 	/*--------------------------
 		ARRUM	
@@ -930,12 +1118,12 @@ table {
 				MAPS
 		--------------------------*/
 	#maps{
-		height: 700px;
+		height: 900px;
 		background-color: #1F243A;
 	}
 
 	#maps .jdl{
-		padding-top: 100px;
+		padding-top: 50px;
 		font-family: 'Dancing Script', cursive;
 		color: #eee;
 		font-size: 75px;
@@ -982,7 +1170,7 @@ table {
 				GALERI
 		--------------------------*/
 	#galeri{
-		height: 1000px;
+		height: 900px;
 		background-color: #1F243A;
 		padding-top: 150px;
 	}
@@ -1009,6 +1197,86 @@ table {
 		-webkit-transform: scale(1.08);
 		transform: scale(1.08);
 	}
+
+
+	
+	/*--------------------------
+				Hadiah
+		--------------------------*/
+
+	#hadiah{
+		height: 700px;
+		background-color: #1F243A;
+	}
+
+	.wrap-hadiah{
+		width: 1500px;
+	}
+
+	#hadiah h1{
+		font-family:'Dancing Script', cursive;
+		color: #eee;
+		font-size: 75px;
+		text-align: center;
+		text-transform: none;
+		padding-bottom: 30px;
+	}
+
+	#hadiah h2{
+		padding: 30px;
+		color: #eee;
+		font-family: 'Poppins', sans-serif;
+		font-size: 20px;
+		text-align: center;
+	}
+
+	#hadiah h3{
+		padding: 30px;
+		color: #eee;
+		font-family: 'Poppins', sans-serif;
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.rek{
+		width: 500px;
+	}
+	.logo{
+		width: 300px;
+		height: 125px;
+		background-color: #f6fdff;
+		border-radius: 40px;
+	}
+
+	.bca{
+		width: 200px;
+	}
+
+	.fisik{
+		width: 500px;
+	}
+
+	.kotak{
+		width: 125px;
+		height: 125px;
+		background-color: #f6fdff;
+		border-radius: 40px;
+	}
+
+	.img-hdh{
+		width: 100px;
+	}
+
+	.salin{
+		font-family: 'Poppins', cursive;
+		width: 200px;
+		height: 40px;
+		background-color: #E9A846;
+		border-radius: 10px;
+		border-style: none;
+	}
+
+
 
 	.authorr{
 		height: 100px;
