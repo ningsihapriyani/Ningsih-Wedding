@@ -119,7 +119,7 @@ body {
 	}	
 }
 
-@media screen and (min-width:840px) {
+@media screen and (max-width:1080px) {
 	/*--------------------------------------------------------------
 	# Hero Section
 	--------------------------------------------------------------*/
@@ -130,6 +130,8 @@ body {
 	}
 
 	.ucapan{
+		
+		margin-top: 250px;
 		color: #E2B84B;
 		text-align: center;
 		text-transform: none;
