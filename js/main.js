@@ -2,7 +2,6 @@ gsap.from('.judul-hero', {duration:1.5, y:100, opacity:0});
 let tl =gsap.timeline(
   {
     scrollTrigger:{
-      trigger: 'dark',
     }
   }
 );
