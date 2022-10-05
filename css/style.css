@@ -168,21 +168,32 @@ table {
 					COUPLE
 			--------------------------*/
 	#couple{
-		height: 1200px;
+		height: 1500px;
 		background-color: #1F243A;
 	}
 
 	.judul{
-		font-size: 35px;
+		width: 300px;
 		text-align: center;
 		text-transform: none;
 		color: #eee;
-		font-family: 'Dancing Script', cursive;
 		margin-bottom: 75px;
 	}
 
+	.judul h1{
+		font-size: 35px;
+		font-family: 'Dancing Script', sans-serif;
+		text-transform: none;
+		padding: 25px;
+	}
+
+	.judul h2{
+		font-size: 15px;
+		font-family: 'Poppins', cursive;
+	}
+
 	.warp-cpl .p-2{
-		width: 400px;
+		width: 300px;
 	}
 		
 	#couple img{
@@ -468,10 +479,40 @@ table {
 	border-style: none;
 }
 
+#penutup{
+	height: 500px;
+	background-color: #1F243A;
+}
+
+.kontener{
+	width: 300px;
+}
+
+#penutup h1{
+	font-family: 'Dancing Script', sans-serif;
+	text-align: center;
+	font-size: 35px;
+	color: #eee;
+	text-decoration: none;
+	text-transform: none;
+	padding-top: 30px;
+}
+
+#penutup h2{
+	padding: 25px;
+	font-family: 'Poppins', cursive;
+	text-align: center;
+	font-size: 15px;
+	color: #eee;
+	text-decoration: none;
+	text-transform: none;
+}
+
+
 
 		/* PROKES */
 		#prokes{
-			height: 700px;
+			height: 1000px;
 			background-color: #E9D6CD;
 		}
 	
@@ -618,14 +659,27 @@ table {
 		background-color: #1F243A;
 	}
 
+
 	.judul{
-		font-size: 60px;
+		width: 800px;
 		text-align: center;
 		text-transform: none;
 		color: #eee;
-		font-family: 'Dancing Script', cursive;
 		margin-bottom: 75px;
 	}
+
+	.judul h1{
+		font-size: 60px;
+		font-family: 'Dancing Script', sans-serif;
+		text-transform: none;
+		padding: 25px;
+	}
+
+	.judul h2{
+		font-size: 20px;
+		font-family: 'Poppins', cursive;
+	}
+
 	
 	.warp-cpl .p-2{
 		width: 400px;
@@ -919,6 +973,37 @@ table {
 		}
 
 
+		#penutup{
+			height: 800px;
+			background-color: #1F243A;
+		}
+	
+		.kontener{
+			width: 800px;
+		}
+	
+		#penutup h1{
+			font-family: 'Dancing Script', sans-serif;
+			text-align: center;
+			font-size: 60px;
+			color: #eee;
+			text-decoration: none;
+			text-transform: none;
+			padding-top: 70px;
+		}
+	
+		#penutup h2{
+			padding: 25px;
+			font-family: 'Poppins', cursive;
+			text-align: center;
+			font-size: 20px;
+			color: #eee;
+			text-decoration: none;
+			text-transform: none;
+		}
+
+		
+
 		/* PROKES */
 		#prokes{
 			height: 700px;
@@ -1028,16 +1113,6 @@ table {
 		background: linear-gradient(180deg, rgba(217, 217, 217, 0) 39.58%, #A3B0C3 100%);
 	}
 
-	#hero .vektor{
-		position: absolute;
-		width: 407.23px;
-		height: 337.28px;
-		left: 0px;
-		top: 743px;
-		
-		z-index: 2;
-	}
-
 	/*--------------------------
 		ARRUM	
 		--------------------------*/
@@ -1076,12 +1151,23 @@ table {
 	}
 
 	.judul{
-		font-size: 75px;
+		width: 1500px;
 		text-align: center;
 		text-transform: none;
 		color: #eee;
-		font-family: 'Dancing Script', cursive;
 		margin-bottom: 75px;
+	}
+
+	.judul h1{
+		font-size: 75px;
+		font-family: 'Dancing Script', sans-serif;
+		text-transform: none;
+		padding: 50px;
+	}
+
+	.judul h2{
+		font-size: 25px;
+		font-family: 'Poppins', cursive;
 	}
 
 	.warp-cpl .p-2{
@@ -1324,7 +1410,7 @@ table {
 	}
 
 	#hadiah h3{
-		padding: 30px;
+		padding-top: 50px;
 		color: #eee;
 		font-family: 'Poppins', sans-serif;
 		font-size: 20px;
@@ -1333,6 +1419,7 @@ table {
 
 	.rek{
 		width: 500px;
+		height: 400px;
 	}
 	.logo{
 		width: 300px;
@@ -1347,6 +1434,7 @@ table {
 
 	.fisik{
 		width: 500px;
+		height: 400px;
 	}
 
 	.kotak{
@@ -1371,6 +1459,34 @@ table {
 	}
 
 
+	#penutup{
+		height: 1000px;
+		background-color: #1F243A;
+	}
+
+	.kontener{
+		width: 1500px;
+	}
+
+	#penutup h1{
+		font-family: 'Dancing Script', sans-serif;
+		text-align: center;
+		font-size: 75px;
+		color: #eee;
+		text-decoration: none;
+		text-transform: none;
+		padding-top: 70px;
+	}
+
+	#penutup h2{
+		padding: 50px;
+		font-family: 'Poppins', cursive;
+		text-align: center;
+		font-size: 25px;
+		color: #eee;
+		text-decoration: none;
+		text-transform: none;
+	}
 
 
 	#prokes{
