@@ -47,3 +47,4 @@ function myFunction1() {
   // Alert the copied text
   alert("Ingin menyalin alamat lengkap?");
 }
+
