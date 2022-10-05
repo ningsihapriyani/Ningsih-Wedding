@@ -173,7 +173,7 @@ table {
 	}
 
 	.judul{
-		width: 300px;
+		width: 350px;
 		text-align: center;
 		text-transform: none;
 		color: #eee;
@@ -181,10 +181,10 @@ table {
 	}
 
 	.judul h1{
-		font-size: 35px;
+		font-size: 25px;
 		font-family: 'Dancing Script', sans-serif;
 		text-transform: none;
-		padding: 25px;
+		padding-bottom: 25px;
 	}
 
 	.judul h2{
@@ -491,7 +491,7 @@ table {
 #penutup h1{
 	font-family: 'Dancing Script', sans-serif;
 	text-align: center;
-	font-size: 35px;
+	font-size: 20px;
 	color: #eee;
 	text-decoration: none;
 	text-transform: none;
@@ -499,7 +499,6 @@ table {
 }
 
 #penutup h2{
-	padding: 25px;
 	font-family: 'Poppins', cursive;
 	text-align: center;
 	font-size: 15px;
