@@ -244,6 +244,10 @@ table {
 		font-family: 'Dancing Script', cursive;
 	}
 
+	#countdown{
+		font-size: 24px;
+	}
+
 	.akad{
 		text-align: center;
 		padding-bottom: 10pxpx;
@@ -731,6 +735,12 @@ table {
 		text-align: center;
 		font-family: 'Dancing Script', cursive;
 	}
+
+	
+	#countdown{
+		font-size: 24px;
+	}
+
 	
 	.akad{
 		text-align: center;
@@ -1220,6 +1230,13 @@ table {
 		text-align: center;
 		font-family: 'Dancing Script', cursive;
 	}
+
+	
+	#countdown{
+		padding: 60px;
+		font-size: 55px;
+	}
+
 
 	.akad{
 		text-align: center;
